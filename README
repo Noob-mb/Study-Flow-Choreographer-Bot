@@ -1,0 +1,36 @@
+"""
+📚 Study Flow Choreography App
+--------------------------------
+
+📝 Problem Statement:
+Students often struggle with structuring their study time effectively. 
+They either overwork without breaks, forget to review, or lack motivation. 
+This leads to poor retention and burnout. 
+There is a need for a simple, guided tool that helps students balance 
+planning, studying, taking breaks, and reviewing.
+
+💡 How This Prototype Solves the Problem:
+This web app provides a clear "Study Flow Choreography":
+    1. Plan → Define your study session goals.
+    2. Study → Focus mode with guidance.
+    3. Break → Timed breaks to recharge.
+    4. Review → Quick revision for better retention.
+
+The prototype gives students a visually structured study assistant with 
+a modern UI. It also includes optional chatbot integration (e.g. GPT or 
+free alternatives like Ollama/HuggingFace) to provide AI-powered study help.
+
+🛠️ Technologies & Tools Used:
+- Python 3 (Flask framework) → Backend web server
+- HTML, CSS, JavaScript → Frontend UI
+- OpenAI API (optional, GPT integration – pending free alternative API)
+- Can be extended with HuggingFace API or Ollama for free chatbot support
+
+✅ Status:
+Frontend + Flask backend prototype working.  
+Only pending task: integrate a free chatbot API (instead of OpenAI GPT).
+<img width="1920" height="1080" alt="2025-08-20" src="https://github.com/user-attachments/assets/bf2d425d-c548-4e69-aab8-d923883da532" />
+
+--------------------------------<img width="1920" height="1080" alt="2025-08-20" src="https://github.com/user-attachments/assets/0ec368cf-f930-4b46-a52e-65e36e98f735" />
+
+"""
