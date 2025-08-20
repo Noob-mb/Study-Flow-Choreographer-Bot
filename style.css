@@ -1,0 +1,137 @@
+/* General Page Styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f4ff, #e2ebf9);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+header {
+  background: #4a6cf7;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* Flow Container */
+.flow-container {
+  margin-top: 2rem;
+ display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Flow Step Cards */
+.flow-step {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 16px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.flow-step:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.flow-step h3 {
+  color: #4a6cf7;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+.flow-step p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #555;
+}
+
+/* Active Step Highlight */
+.flow-step.active {
+  border: 2px solid #4a6cf7;
+  background: #f6f9ff;
+}
+
+/* Chat Box */
+.chat-box {
+  margin: 3rem auto;
+  max-width: 500px;
+  width: 90%;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.chat-box textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 0.75rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-family: inherit;
+font-size: 1rem;
+  transition: border 0.2s ease;
+}
+
+.chat-box textarea:focus {
+  outline: none;
+  border-color: #4a6cf7;
+  box-shadow: 0 0 0 3px rgba(74,108,247,0.15);
+}
+
+.chat-box button {
+  background: #4a6cf7;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  align-self: flex-end;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.chat-box button:hover {
+  background: #3a57d6;
+  transform: translateY(-2px);
+}
+
+.chat-response {
+  background: #f6f9ff;
+  padding: 1rem;
+  border-radius: 10px;
+  border-left: 4px solid #4a6cf7;
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.4;
+}
